@@ -45,7 +45,7 @@ function check(){
 
     if(userName.value == storedName && userPw.value == storedPw){
         window.location.href="puzzle.html";
-        alert('You are logged in.');
+        
     }else{
         alert('Error on login');
     }

@@ -44,7 +44,7 @@ function check(){
     var userRemember = document.getElementById("rememberMe");
 
     if(userName.value == storedName && userPw.value == storedPw){
-        window.location.href="puzzle.html";
+        window.location.href="https://fastidious-churros-3aa590.netlify.app";
         alert('You are logged in.');
     }else{
         alert('Error on login');
